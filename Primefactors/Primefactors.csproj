@@ -117,8 +117,7 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\IsPrime.cs" />
-    <Compile Include="Models\PrimeList.cs" />
+    <Compile Include="Models\Prime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

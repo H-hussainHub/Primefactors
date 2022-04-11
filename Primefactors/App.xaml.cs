@@ -6,6 +6,8 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using Unity;
+using Unity.Injection;
 
 namespace Primefactors
 {
@@ -14,6 +16,7 @@ namespace Primefactors
     /// </summary>
     public partial class App : Application
     {
+      
         protected override void OnStartup(StartupEventArgs e)
         {
             MainWindow = new MainWindow()
